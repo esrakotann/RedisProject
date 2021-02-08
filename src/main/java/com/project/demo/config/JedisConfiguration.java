@@ -5,8 +5,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import redis.clients.jedis.*;
 
-
-
 @Configuration
 @ComponentScan("com.project.demo.config")
 public class JedisConfiguration  {
